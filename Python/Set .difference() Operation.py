@@ -1,0 +1,7 @@
+n=int(input())
+lst1=list(map(int, input().split()))
+st1=set(lst1)
+m=int(input())
+lst2=list(map(int, input().split()))
+st2=set(lst2)
+print(len(st1.difference(st2)))

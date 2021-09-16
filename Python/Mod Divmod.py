@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+print(a//b)
+print(a%b)
+lst=tuple([a//b,a%b])
+print(lst)
